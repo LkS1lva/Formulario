@@ -10,16 +10,37 @@
 <body>
     <form action= "#">
         <fieldset>
-            <legend>Login</legend>
-            <label for="Ilogin">Email</label>
-            <input  id="Ilogin" name="EMlogin" type="email">
+            <legend>Cadastro</legend>
+            <label for="INome">Nome</label>
+            <input  id="INome" name="Namelogin" type="text">
+            <br>
+            <br>
+            <label for="IData">Data de Nascimento</label>
+            <input type="date" id="IData">
+            <br>
+            <br>
+            <label for="Isexo">Sexo</label>
+            <select name="Sexo" id="Isexo">
+                <option value="Select">Selecionar</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Outros">Outros</option>
+            </select>
             <br>
             <br>
             <label for="Isenha">Senha</label>
             <input id="Isenha" name="PWlogin" type="password">
             <br>
             <br>
-            <input type="submit" value="Entrar">
+            <label for="Ilogin">Email</label>
+            <input  id="Ilogin" name="EMlogin" type="email">
+            <br>
+            <br>
+            <label for="Iemailconfig">Confirmar Email</label>
+            <input  id="Iemailconfig" name="EMconfirm" type="email">
+            <br>
+            <br>
+            <input type="submit" value="Cadastrar">
             <br>
             <input type="checkbox" id="Ilogado" name="CBlogado">
             <label for="CBogado">Permanecer logado</label>
